@@ -1,8 +1,10 @@
-.App {
+.App2 {
+    width: 65%;
     margin: 0 auto;
-    height: 400px;
-    width: 60%;
+    height: 800px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+

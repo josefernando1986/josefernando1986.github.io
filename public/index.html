@@ -2,42 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>José Fernando Gallego Cardona</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navBar-container">
+      <ul class="navBar">
+          <li class="navBar-element">Home</li>
+          <li class="navBar-element">About</li>
+          <li class="navBar-element">Tech Stack</li>
+          <li class="navBar-element">Projects</li>
+          <li class="navBar-element">Contact</li>
+          <li class="navBar-element"> <a class="navBar-icon" href="#"> <img src="./assets/iconos/github.svg" alt="Ícono de Github"> </a></li>
+          <li class="navBar-element"> <a class="navBar-icon" href="#"> <img src="./assets/iconos/twitter.svg" alt="Ícono de Twitter"> </a></li>
+          <li class="navBar-element"> <a class="navBar-icon" href="#"> <img src="./assets/iconos/linkedin.svg" alt="Ícono de Linkedin"> </a> </li>
+      </ul>
+  </nav>
+
+  <!-- HERO -->
+  <main class="hero">
+    <section class="hero-container-text">
+      <h1>!Hi 👋, <br> my name is <br> <span id="hero-name"> José Fernando </span> <br> and I build things for web.</span></h1>
+    </section>
+    <div class="hero-container-img">
+      <img src="./assets/imagenes/hero.svg" alt="imagen de alguien programando frente al computador">
+    </div>
+  </main>
+
+  <!-- ABOUT -->
+  <section class="about">
+      <article class="about-container">
+        <h2 class="about-title">About Me</h2>
+        <p>I'm from Colombia, i studied Sistems Technology at the Institucion Universitaria Salazar y Herrera in Medellín. I have studied web technologies since 1 year ago and I love this. </p>
+      </article>
+      <article class="about-container experience">
+        <h2 class="about-title">Experience</h2>
+        <p>Waiting for a job oportunity</p>
+      </article>
+      <article class="about-container education">
+        <h2 class="about-title">Education</h2>
+        <p>SYSTEM TECHNOLOGIST</p>
+        <p>Institución Educativa Salazar y Herrera</p>
+        <P>2009</P>
+      </article>
+  </section>
+
+
+
+  <!-- STACK DE TECNOLOGIAS -->
+
+  <section class="stack">
+
+      <h2 class="title">My Tech Stack</h2>
+      <p class="paragraph">Technologies i've been working with recently</p>
+      
+      <!-- INICIO DE APLICACION REACT -->
+      <div id="root"></div>
+      <!-- FIN DE APLICACIÓN REACT -->
+      
+    </section>
+    
+    <section class="projects">
+      
+      <h2 class="title">Projects</h2>
+      <p class="paragraph">Things i've built so far</p>
+      <!-- INICIO DE APLICACION REACT -->
+      <div id="root2"></div>
+      <!-- FIN DE APLICACIÓN REACT -->
+  </section>
+  
   </body>
 </html>
